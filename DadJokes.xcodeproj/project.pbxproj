@@ -7,15 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92180BFE28A3BBF200CB60D2 /* DadJokesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180BFD28A3BBF200CB60D2 /* DadJokesUITests.swift */; };
+		92180C0728A3BC5C00CB60D2 /* PlusTestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180C0628A3BC5C00CB60D2 /* PlusTestUI.swift */; };
+		92180C0F28A3BCCC00CB60D2 /* DadJokesTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180C0E28A3BCCC00CB60D2 /* DadJokesTests2.swift */; };
+		92180C1828A3BD9900CB60D2 /* TestLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180C1728A3BD9900CB60D2 /* TestLogic.swift */; };
+		922E7D332891481C00A60C08 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E7D322891481C00A60C08 /* HomeView.swift */; };
+		922E7D3528914B1E00A60C08 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E7D3428914B1E00A60C08 /* CardDetailView.swift */; };
+		92493B9B289774D3007BDA0B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92493B9A289774D3007BDA0B /* ImageView.swift */; };
+		929E000428B5D9A8003FD102 /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E000328B5D9A8003FD102 /* TestAPI.swift */; };
+		929E000628B5E54B003FD102 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2B52893C72600204345 /* Contact.swift */; };
+		929E000828B5E593003FD102 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2B52893C72600204345 /* Contact.swift */; };
+		929E001628B635DD003FD102 /* HTTPsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E001528B635DD003FD102 /* HTTPsClient.swift */; };
+		929E001828B63B65003FD102 /* HTTPSClientProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E001728B63B65003FD102 /* HTTPSClientProtocal.swift */; };
+		929E001E28B64093003FD102 /* data-contact-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 929E001D28B64093003FD102 /* data-contact-response.json */; };
+		92ABC4F328AB933E006D5D65 /* DolarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EDF38E28A26AE8000F150B /* DolarViewModel.swift */; };
+		92ABC4F528AB93BE006D5D65 /* DolarViewModel_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ABC4E528AB8AA2006D5D65 /* DolarViewModel_Test.swift */; };
+		92CA335928B71A0700BCEF60 /* HttpClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA335828B71A0700BCEF60 /* HttpClientFactory.swift */; };
+		92CA335D28B7242400BCEF60 /* DadJokesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180BFF28A3BBF200CB60D2 /* DadJokesUITestsLaunchTests.swift */; };
+		92CA335E28B7248400BCEF60 /* HttpClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA335828B71A0700BCEF60 /* HttpClientFactory.swift */; };
+		92CA336128B725A000BCEF60 /* HTTPSClientProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E001728B63B65003FD102 /* HTTPSClientProtocal.swift */; };
+		92CA336228B7273D00BCEF60 /* HTTPsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E001528B635DD003FD102 /* HTTPsClient.swift */; };
+		92CA336328B7275F00BCEF60 /* StateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2B92893C76D00204345 /* StateViewModel.swift */; };
+		92CA336D28B72DD700BCEF60 /* StateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2B92893C76D00204345 /* StateViewModel.swift */; };
+		92CA336E28B72E8800BCEF60 /* MockHTTPSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E001A28B63EEE003FD102 /* MockHTTPSClient.swift */; };
+		92D5686128BF3F35004A33C4 /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5686028BF3F35004A33C4 /* Mockable.swift */; };
+		92D5686328BF4AC0004A33C4 /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5686028BF3F35004A33C4 /* Mockable.swift */; };
+		92ECC2BC2893E68800204345 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2BB2893E68800204345 /* TabBarRouter.swift */; };
+		92ECC2BF2893EA1800204345 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2BE2893EA1800204345 /* AccountView.swift */; };
+		92ECC2C12893EA3400204345 /* PlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2C02893EA3400204345 /* PlusView.swift */; };
+		92ECC2C32893EA4D00204345 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2C22893EA4D00204345 /* MapView.swift */; };
+		92ECC2C52893EA6300204345 /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2C42893EA6300204345 /* RecordsView.swift */; };
+		92EDF38F28A26AE8000F150B /* DolarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EDF38E28A26AE8000F150B /* DolarViewModel.swift */; };
 		92FFBD4A288FEC0B0003FDED /* DadJokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBD49288FEC0B0003FDED /* DadJokesApp.swift */; };
 		92FFBD4C288FEC0B0003FDED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBD4B288FEC0B0003FDED /* ContentView.swift */; };
 		92FFBD4E288FEC0D0003FDED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBD4D288FEC0D0003FDED /* Assets.xcassets */; };
 		92FFBD51288FEC0D0003FDED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FFBD50288FEC0D0003FDED /* Preview Assets.xcassets */; };
 		92FFBD53288FEC0D0003FDED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBD52288FEC0D0003FDED /* Persistence.swift */; };
 		92FFBD56288FEC0D0003FDED /* DadJokes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBD54288FEC0D0003FDED /* DadJokes.xcdatamodeld */; };
+		92FFBD5E288FF7080003FDED /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBD5D288FF7080003FDED /* EmojiView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		92180C0128A3BBF200CB60D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FFBD3E288FEC0B0003FDED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FFBD45288FEC0B0003FDED;
+			remoteInfo = DadJokes;
+		};
+		92180C1028A3BCCC00CB60D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FFBD3E288FEC0B0003FDED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FFBD45288FEC0B0003FDED;
+			remoteInfo = DadJokes;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		767C4C390FC89B1568B0794A /* Pods-DadJokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadJokes.release.xcconfig"; path = "Target Support Files/Pods-DadJokes/Pods-DadJokes.release.xcconfig"; sourceTree = "<group>"; };
+		92180BFB28A3BBF200CB60D2 /* DadJokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadJokesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92180BFD28A3BBF200CB60D2 /* DadJokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesUITests.swift; sourceTree = "<group>"; };
+		92180BFF28A3BBF200CB60D2 /* DadJokesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92180C0628A3BC5C00CB60D2 /* PlusTestUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusTestUI.swift; sourceTree = "<group>"; };
+		92180C0C28A3BCCC00CB60D2 /* DadJokesTests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadJokesTests2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92180C0E28A3BCCC00CB60D2 /* DadJokesTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesTests2.swift; sourceTree = "<group>"; };
+		92180C1728A3BD9900CB60D2 /* TestLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLogic.swift; sourceTree = "<group>"; };
+		922E7D322891481C00A60C08 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		922E7D3428914B1E00A60C08 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		92493B9A289774D3007BDA0B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		929E000328B5D9A8003FD102 /* TestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestAPI.swift; path = ../../../TestAPI.swift; sourceTree = "<group>"; };
+		929E001528B635DD003FD102 /* HTTPsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPsClient.swift; path = ../../../../HTTPsClient.swift; sourceTree = "<group>"; };
+		929E001728B63B65003FD102 /* HTTPSClientProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPSClientProtocal.swift; path = ../../../../HTTPSClientProtocal.swift; sourceTree = "<group>"; };
+		929E001A28B63EEE003FD102 /* MockHTTPSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockHTTPSClient.swift; path = ../../../../MockHTTPSClient.swift; sourceTree = "<group>"; };
+		929E001D28B64093003FD102 /* data-contact-response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "data-contact-response.json"; path = "../../../../data-contact-response.json"; sourceTree = "<group>"; };
+		92ABC4E528AB8AA2006D5D65 /* DolarViewModel_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarViewModel_Test.swift; sourceTree = "<group>"; };
+		92CA335828B71A0700BCEF60 /* HttpClientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HttpClientFactory.swift; path = ../../../../HttpClientFactory.swift; sourceTree = "<group>"; };
+		92D5686028BF3F35004A33C4 /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Mockable.swift; path = ../../../../Mockable.swift; sourceTree = "<group>"; };
+		92ECC2B52893C72600204345 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		92ECC2B92893C76D00204345 /* StateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewModel.swift; sourceTree = "<group>"; };
+		92ECC2BB2893E68800204345 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		92ECC2BE2893EA1800204345 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		92ECC2C02893EA3400204345 /* PlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusView.swift; sourceTree = "<group>"; };
+		92ECC2C22893EA4D00204345 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		92ECC2C42893EA6300204345 /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
+		92EDF38E28A26AE8000F150B /* DolarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarViewModel.swift; sourceTree = "<group>"; };
 		92FFBD46288FEC0B0003FDED /* DadJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FFBD49288FEC0B0003FDED /* DadJokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesApp.swift; sourceTree = "<group>"; };
 		92FFBD4B288FEC0B0003FDED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,9 +99,26 @@
 		92FFBD50288FEC0D0003FDED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92FFBD52288FEC0D0003FDED /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		92FFBD55288FEC0D0003FDED /* DadJokes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DadJokes.xcdatamodel; sourceTree = "<group>"; };
+		92FFBD5C288FEE790003FDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		92FFBD5D288FF7080003FDED /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		A3212828872856F723AEB0A1 /* Pods-DadJokes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadJokes.debug.xcconfig"; path = "Target Support Files/Pods-DadJokes/Pods-DadJokes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		92180BF828A3BBF200CB60D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92180C0928A3BCCC00CB60D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		92FFBD43288FEC0B0003FDED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,11 +129,122 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		920C77962898CF7D000B1F4E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				922E7D3628914B2300A60C08 /* View */,
+				92FFBD4B288FEC0B0003FDED /* ContentView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		920C77972898D8F4000B1F4E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				92FFBD5D288FF7080003FDED /* EmojiView.swift */,
+				922E7D3428914B1E00A60C08 /* CardDetailView.swift */,
+				92493B9A289774D3007BDA0B /* ImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		92180BFC28A3BBF200CB60D2 /* DadJokesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92180BFD28A3BBF200CB60D2 /* DadJokesUITests.swift */,
+				92180BFF28A3BBF200CB60D2 /* DadJokesUITestsLaunchTests.swift */,
+				92180C0628A3BC5C00CB60D2 /* PlusTestUI.swift */,
+			);
+			path = DadJokesUITests;
+			sourceTree = "<group>";
+		};
+		92180C0D28A3BCCC00CB60D2 /* DadJokesTests2 */ = {
+			isa = PBXGroup;
+			children = (
+				929E001C28B64069003FD102 /* Json Response */,
+				929E001928B63ECF003FD102 /* Mocks */,
+				92180C0E28A3BCCC00CB60D2 /* DadJokesTests2.swift */,
+				92180C1728A3BD9900CB60D2 /* TestLogic.swift */,
+				92ABC4E528AB8AA2006D5D65 /* DolarViewModel_Test.swift */,
+				929E000328B5D9A8003FD102 /* TestAPI.swift */,
+			);
+			path = DadJokesTests2;
+			sourceTree = "<group>";
+		};
+		922E7D3628914B2300A60C08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				920C77972898D8F4000B1F4E /* Components */,
+				922E7D322891481C00A60C08 /* HomeView.swift */,
+				92ECC2BE2893EA1800204345 /* AccountView.swift */,
+				92ECC2C02893EA3400204345 /* PlusView.swift */,
+				92ECC2C22893EA4D00204345 /* MapView.swift */,
+				92ECC2C42893EA6300204345 /* RecordsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		929E001428B635B6003FD102 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				929E001528B635DD003FD102 /* HTTPsClient.swift */,
+				929E001728B63B65003FD102 /* HTTPSClientProtocal.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		929E001928B63ECF003FD102 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				929E001A28B63EEE003FD102 /* MockHTTPSClient.swift */,
+				92D5686028BF3F35004A33C4 /* Mockable.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		929E001C28B64069003FD102 /* Json Response */ = {
+			isa = PBXGroup;
+			children = (
+				929E001D28B64093003FD102 /* data-contact-response.json */,
+			);
+			path = "Json Response";
+			sourceTree = "<group>";
+		};
+		92CA335728B719E600BCEF60 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				92CA335828B71A0700BCEF60 /* HttpClientFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		92ECC2B72893C73A00204345 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92ECC2B52893C72600204345 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92ECC2B82893C74D00204345 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				92ECC2B92893C76D00204345 /* StateViewModel.swift */,
+				92ECC2BB2893E68800204345 /* TabBarRouter.swift */,
+				92EDF38E28A26AE8000F150B /* DolarViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		92FFBD3D288FEC0B0003FDED = {
 			isa = PBXGroup;
 			children = (
 				92FFBD48288FEC0B0003FDED /* DadJokes */,
+				92180BFC28A3BBF200CB60D2 /* DadJokesUITests */,
+				92180C0D28A3BCCC00CB60D2 /* DadJokesTests2 */,
 				92FFBD47288FEC0B0003FDED /* Products */,
+				FCCCE1089C12051F915E73D3 /* Pods */,
+				D7EC9D6D767A12043D2D5F39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,6 +252,8 @@
 			isa = PBXGroup;
 			children = (
 				92FFBD46288FEC0B0003FDED /* DadJokes.app */,
+				92180BFB28A3BBF200CB60D2 /* DadJokesUITests.xctest */,
+				92180C0C28A3BCCC00CB60D2 /* DadJokesTests2.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,8 +261,13 @@
 		92FFBD48288FEC0B0003FDED /* DadJokes */ = {
 			isa = PBXGroup;
 			children = (
+				92CA335728B719E600BCEF60 /* Factories */,
+				929E001428B635B6003FD102 /* Services */,
+				92ECC2B72893C73A00204345 /* Models */,
+				920C77962898CF7D000B1F4E /* Navigation */,
+				92ECC2B82893C74D00204345 /* ViewModels */,
+				92FFBD5C288FEE790003FDED /* Info.plist */,
 				92FFBD49288FEC0B0003FDED /* DadJokesApp.swift */,
-				92FFBD4B288FEC0B0003FDED /* ContentView.swift */,
 				92FFBD4D288FEC0D0003FDED /* Assets.xcassets */,
 				92FFBD52288FEC0D0003FDED /* Persistence.swift */,
 				92FFBD54288FEC0D0003FDED /* DadJokes.xcdatamodeld */,
@@ -73,13 +284,66 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D7EC9D6D767A12043D2D5F39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCCCE1089C12051F915E73D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3212828872856F723AEB0A1 /* Pods-DadJokes.debug.xcconfig */,
+				767C4C390FC89B1568B0794A /* Pods-DadJokes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		92180BFA28A3BBF200CB60D2 /* DadJokesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92180C0328A3BBF200CB60D2 /* Build configuration list for PBXNativeTarget "DadJokesUITests" */;
+			buildPhases = (
+				92180BF728A3BBF200CB60D2 /* Sources */,
+				92180BF828A3BBF200CB60D2 /* Frameworks */,
+				92180BF928A3BBF200CB60D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92180C0228A3BBF200CB60D2 /* PBXTargetDependency */,
+			);
+			name = DadJokesUITests;
+			productName = DadJokesUITests;
+			productReference = 92180BFB28A3BBF200CB60D2 /* DadJokesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		92180C0B28A3BCCC00CB60D2 /* DadJokesTests2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92180C1228A3BCCC00CB60D2 /* Build configuration list for PBXNativeTarget "DadJokesTests2" */;
+			buildPhases = (
+				92180C0828A3BCCC00CB60D2 /* Sources */,
+				92180C0928A3BCCC00CB60D2 /* Frameworks */,
+				92180C0A28A3BCCC00CB60D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92180C1128A3BCCC00CB60D2 /* PBXTargetDependency */,
+			);
+			name = DadJokesTests2;
+			productName = DadJokesTests2;
+			productReference = 92180C0C28A3BCCC00CB60D2 /* DadJokesTests2.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		92FFBD45288FEC0B0003FDED /* DadJokes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92FFBD59288FEC0D0003FDED /* Build configuration list for PBXNativeTarget "DadJokes" */;
 			buildPhases = (
+				8CCABDD29D223BEF5D5E4CF3 /* [CP] Check Pods Manifest.lock */,
 				92FFBD42288FEC0B0003FDED /* Sources */,
 				92FFBD43288FEC0B0003FDED /* Frameworks */,
 				92FFBD44288FEC0B0003FDED /* Resources */,
@@ -100,9 +364,17 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					92180BFA28A3BBF200CB60D2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 92FFBD45288FEC0B0003FDED;
+					};
+					92180C0B28A3BCCC00CB60D2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 92FFBD45288FEC0B0003FDED;
+					};
 					92FFBD45288FEC0B0003FDED = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -122,11 +394,28 @@
 			projectRoot = "";
 			targets = (
 				92FFBD45288FEC0B0003FDED /* DadJokes */,
+				92180BFA28A3BBF200CB60D2 /* DadJokesUITests */,
+				92180C0B28A3BCCC00CB60D2 /* DadJokesTests2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		92180BF928A3BBF200CB60D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92180C0A28A3BCCC00CB60D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929E001E28B64093003FD102 /* data-contact-response.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		92FFBD44288FEC0B0003FDED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,21 +427,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CCABDD29D223BEF5D5E4CF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DadJokes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		92180BF728A3BBF200CB60D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92180C0728A3BC5C00CB60D2 /* PlusTestUI.swift in Sources */,
+				92180BFE28A3BBF200CB60D2 /* DadJokesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92180C0828A3BCCC00CB60D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CA336D28B72DD700BCEF60 /* StateViewModel.swift in Sources */,
+				92CA335E28B7248400BCEF60 /* HttpClientFactory.swift in Sources */,
+				92180C1828A3BD9900CB60D2 /* TestLogic.swift in Sources */,
+				92CA336128B725A000BCEF60 /* HTTPSClientProtocal.swift in Sources */,
+				92ABC4F528AB93BE006D5D65 /* DolarViewModel_Test.swift in Sources */,
+				92CA336228B7273D00BCEF60 /* HTTPsClient.swift in Sources */,
+				92180C0F28A3BCCC00CB60D2 /* DadJokesTests2.swift in Sources */,
+				92D5686128BF3F35004A33C4 /* Mockable.swift in Sources */,
+				92ABC4F328AB933E006D5D65 /* DolarViewModel.swift in Sources */,
+				92CA336E28B72E8800BCEF60 /* MockHTTPSClient.swift in Sources */,
+				92CA335D28B7242400BCEF60 /* DadJokesUITestsLaunchTests.swift in Sources */,
+				929E000428B5D9A8003FD102 /* TestAPI.swift in Sources */,
+				929E000628B5E54B003FD102 /* Contact.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		92FFBD42288FEC0B0003FDED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CA336328B7275F00BCEF60 /* StateViewModel.swift in Sources */,
+				92493B9B289774D3007BDA0B /* ImageView.swift in Sources */,
+				92CA335928B71A0700BCEF60 /* HttpClientFactory.swift in Sources */,
+				92ECC2C12893EA3400204345 /* PlusView.swift in Sources */,
+				92ECC2BF2893EA1800204345 /* AccountView.swift in Sources */,
+				929E000828B5E593003FD102 /* Contact.swift in Sources */,
 				92FFBD53288FEC0D0003FDED /* Persistence.swift in Sources */,
 				92FFBD4C288FEC0B0003FDED /* ContentView.swift in Sources */,
 				92FFBD56288FEC0D0003FDED /* DadJokes.xcdatamodeld in Sources */,
+				92ECC2C32893EA4D00204345 /* MapView.swift in Sources */,
+				922E7D332891481C00A60C08 /* HomeView.swift in Sources */,
 				92FFBD4A288FEC0B0003FDED /* DadJokesApp.swift in Sources */,
+				92ECC2BC2893E68800204345 /* TabBarRouter.swift in Sources */,
+				92ECC2C52893EA6300204345 /* RecordsView.swift in Sources */,
+				92EDF38F28A26AE8000F150B /* DolarViewModel.swift in Sources */,
+				929E001828B63B65003FD102 /* HTTPSClientProtocal.swift in Sources */,
+				92FFBD5E288FF7080003FDED /* EmojiView.swift in Sources */,
+				929E001628B635DD003FD102 /* HTTPsClient.swift in Sources */,
+				92D5686328BF4AC0004A33C4 /* Mockable.swift in Sources */,
+				922E7D3528914B1E00A60C08 /* CardDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		92180C0228A3BBF200CB60D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FFBD45288FEC0B0003FDED /* DadJokes */;
+			targetProxy = 92180C0128A3BBF200CB60D2 /* PBXContainerItemProxy */;
+		};
+		92180C1128A3BCCC00CB60D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FFBD45288FEC0B0003FDED /* DadJokes */;
+			targetProxy = 92180C1028A3BCCC00CB60D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		92180C0428A3BBF200CB60D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QJ45CE63B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoretel.connect.DadJokesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DadJokes;
+			};
+			name = Debug;
+		};
+		92180C0528A3BBF200CB60D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QJ45CE63B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoretel.connect.DadJokesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DadJokes;
+			};
+			name = Release;
+		};
+		92180C1328A3BCCC00CB60D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QJ45CE63B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoretel.connect.DadJokesTests2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DadJokes.app/DadJokes";
+			};
+			name = Debug;
+		};
+		92180C1428A3BCCC00CB60D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QJ45CE63B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoretel.connect.DadJokesTests2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DadJokes.app/DadJokes";
+			};
+			name = Release;
+		};
 		92FFBD57288FEC0D0003FDED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -269,6 +715,7 @@
 		};
 		92FFBD5A288FEC0D0003FDED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3212828872856F723AEB0A1 /* Pods-DadJokes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -278,7 +725,7 @@
 				DEVELOPMENT_TEAM = 6QJ45CE63B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DadJokes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -298,6 +745,7 @@
 		};
 		92FFBD5B288FEC0D0003FDED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767C4C390FC89B1568B0794A /* Pods-DadJokes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -307,7 +755,7 @@
 				DEVELOPMENT_TEAM = 6QJ45CE63B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DadJokes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -328,6 +776,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		92180C0328A3BBF200CB60D2 /* Build configuration list for PBXNativeTarget "DadJokesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92180C0428A3BBF200CB60D2 /* Debug */,
+				92180C0528A3BBF200CB60D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92180C1228A3BCCC00CB60D2 /* Build configuration list for PBXNativeTarget "DadJokesTests2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92180C1328A3BCCC00CB60D2 /* Debug */,
+				92180C1428A3BCCC00CB60D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		92FFBD41288FEC0B0003FDED /* Build configuration list for PBXProject "DadJokes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
