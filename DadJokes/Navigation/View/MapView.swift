@@ -14,12 +14,17 @@ struct MapView: View {
         NavigationView{
             List {
                 ForEach(self.modelView.listContact, id:\.self){item in
-                    Text("\(item.name)")
+                    HStack{
+                        AsyncImage(url: URL(string: item.avatar), content: { image in
+                                                image.resizable()
+                                            }, placeholder: {ProgressView()}).frame(width: 30, height: 30).clipShape(Circle())
+                        Text("\(item.name)")
+                    }
                 }.onDelete(perform: removeItem)
                    
             }.refreshable {
                 modelView.getData()
-            }
+            }.navigationTitle("Map view")
         }
     }
     func removeItem(at offsets: IndexSet){
