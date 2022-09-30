@@ -12,19 +12,24 @@ struct MapView: View {
     @State var show = false
     var body: some View {
         NavigationView{
-            List {
-                ForEach(self.modelView.listContact, id:\.self){item in
-                    HStack{
-                        AsyncImage(url: URL(string: item.avatar), content: { image in
-                                                image.resizable()
-                                            }, placeholder: {ProgressView()}).frame(width: 30, height: 30).clipShape(Circle())
-                        Text("\(item.name)")
-                    }
-                }.onDelete(perform: removeItem)
-                   
-            }.refreshable {
-                modelView.getData()
-            }.navigationTitle("Map view")
+            VStack{
+                List {
+                    ForEach(self.modelView.listContact, id:\.self){item in
+                        HStack{
+                            AsyncImage(url: URL(string: item.avatar), content: { image in
+                                                    image.resizable()
+                                                }, placeholder: {ProgressView()}).frame(width: 30, height: 30).clipShape(Circle())
+                            Text("\(item.name)")
+                        }
+                    }.onDelete(perform: removeItem)
+                       
+                }.refreshable {
+                    modelView.getData()
+                }.navigationTitle("Map view")
+                Button("Post Contact") {
+                    modelView.postContact(contact: Contact(name: "Chau Tinh Tri", emoji: ":)", avatar: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/431.jpg"))
+                }
+            }
         }
     }
     func removeItem(at offsets: IndexSet){

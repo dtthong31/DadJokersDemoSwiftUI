@@ -20,7 +20,7 @@ struct PlusView: View {
                         .textFieldStyle(.roundedBorder)
                         .keyboardType(.decimalPad)
                         .submitLabel(.done)
-                        .accessibilityIdentifier("SignUpDolar")
+                        .accessibilityIdentifier("InputDolar")
                     Button("Submit", action: dolarVM.convertMoney)
                         .buttonStyle(.borderedProminent)
                         .accessibilityIdentifier("Submit")

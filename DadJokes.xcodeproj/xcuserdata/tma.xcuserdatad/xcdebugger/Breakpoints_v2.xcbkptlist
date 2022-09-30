@@ -95,7 +95,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "46"
                   endingLineNumber = "46"
-                  offsetFromSymbolStart = "252">
+                  offsetFromSymbolStart = "56">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -128,7 +128,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "47"
                   endingLineNumber = "47"
-                  offsetFromSymbolStart = "288">
+                  offsetFromSymbolStart = "96">
                </Location>
                <Location
                   uuid = "1253ADF0-FD67-485F-8B7B-07A4E55E241B - b1ea9f8840ce7209"
@@ -158,13 +158,13 @@
             filePath = "DadJokes/Navigation/View/MapView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "removeItem(at:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "B58AC43B-BCAE-4820-9A50-21AEAC688DFB - 1f0825d9ed86069e"
+                  uuid = "B58AC43B-BCAE-4820-9A50-21AEAC688DFB - 1f0825d9ed860054"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -174,26 +174,58 @@
                   urlString = "file:///Users/tma/Documents/DadJokes/DadJokes/Navigation/View/MapView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "196">
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "328">
                </Location>
                <Location
-                  uuid = "B58AC43B-BCAE-4820-9A50-21AEAC688DFB - 3ec7ab2bfcb18a94"
+                  uuid = "B58AC43B-BCAE-4820-9A50-21AEAC688DFB - c5bea21eec529e96"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Int) -&gt; Swift.String in DadJokes.MapView.removeItem(at: Foundation.IndexSet) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Int) -&gt; Swift.Optional&lt;Swift.String&gt; in DadJokes.MapView.removeItem(at: Foundation.IndexSet) -&gt; ()"
                   moduleName = "DadJokes"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tma/Documents/DadJokes/DadJokes/Navigation/View/MapView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
                   offsetFromSymbolStart = "40">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8F64022-E5EE-43E6-9B5B-505DA020EBFC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../HTTPsClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "postContact(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C2334A2-75B9-4F39-8465-BB49427D2DA7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../HTTPsClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "postContact(_:completion:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

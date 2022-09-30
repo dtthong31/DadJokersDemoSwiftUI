@@ -39,4 +39,13 @@ class StateViewModel : ObservableObject {
             self.getData()
         }
     }
+    func postContact(contact:Contact){
+        self.client.postContact(contact) { err in
+            if err != nil {
+                print("Post Fail")
+            }
+            print("Post Success")
+            self.getData()
+        }
+    }
 }

@@ -25,7 +25,7 @@ class PlusTestUI: XCTestCase {
 //        Then
 //        Then
         
-        let bartonButton = app.tables/*@START_MENU_TOKEN@*/.buttons["Barton"]/*[[".cells[\"Barton\"].buttons[\"Barton\"]",".buttons[\"Barton\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+        let bartonButton = app.tables.buttons["Barton"]
         bartonButton.tap()
         app.navigationBars["_TtGC7SwiftUI19UIHosting"].buttons["Animal"].tap()
         
@@ -33,11 +33,13 @@ class PlusTestUI: XCTestCase {
     func signInText(shouldKeyoard: Bool){
         let tabBar = app.tabBars["Tab Bar"]
         let tabPlus = tabBar.buttons["Plus"]
-        let textField = app.textFields["SignUpDolar"]
+        let textField = app.textFields["InputDolar"]
         
         tabPlus.tap()
         textField.tap()
-        
+//      case
+//        textField.typeText("11211")
+//        or
         if shouldKeyoard {
             let key = app.keys["1"]
             key.tap()
@@ -57,18 +59,39 @@ class PlusTestUI: XCTestCase {
 //        let existSubmit = btnSubmit.waitForExistence(timeout: 10)
 //        XCTAssertTrue(existSubmit)
     }
-    func test_PlusViewUI_btnSubmit_convertedMoney() {
-        
-//        Given
+    
+    func test_PlusViewUI_ViewResult_CorrectResult(){
+        //        Given
         signInText(shouldKeyoard: true)
         
-//        When
-        let viewResult = app.textViews["ViewResult"]
-        
-//        Then
-        app.tables.cells["$51.54, Submit"].children(matching: .other).element(boundBy: 0).children(matching: .other).element.tap()
-        XCTAssertTrue(viewResult.exists)
+        //        Then
+        let reslutTextView = app.staticTexts.matching(identifier:"ViewResult").element.label
+        XCTAssertEqual(reslutTextView, "$51.54")
+      
     }
+    
+    func test_PlusViewUI_SubmitWithInputDolar_touchSuccess(){
+        //        Given
+        signInText(shouldKeyoard: true)
+        XCTAssert(app.buttons["Submit"].isEnabled)
+    }
+        
+    
+//    func test_PlusViewUI_btnSubmit_convertedMoney() {
+//
+////        Given
+//        signInText(shouldKeyoard: true)
+//
+////        When
+//        let viewResult = app.textViews["ViewResult"]
+//
+////        Then
+//        app.tables.cells["$51.54, Submit"].children(matching: .other).element(boundBy: 0).children(matching: .other).element.tap()
+//        XCTAssertTrue(viewResult.exists)
+//    }
+    
+   
+    
     
    
 }
