@@ -49,10 +49,6 @@
 		D51E2A7028F55CE500277ADB /* HTTPSClientProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */; };
 		D51E2A7228F55D1600277ADB /* HttpClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A7128F55D1600277ADB /* HttpClientFactory.swift */; };
 		D51E2A7428F55D4A00277ADB /* HTTPsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */; };
-		D57839E128FEAF790031E2CD /* HTTPsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */; };
-		D57839E228FEAF790031E2CD /* HTTPsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */; };
-		D57839E328FEB1D90031E2CD /* HTTPSClientProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */; };
-		D57839E428FEB1DA0031E2CD /* HTTPSClientProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */; };
 		D57839E728FEB3560031E2CD /* StateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2B92893C76D00204345 /* StateViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -115,9 +111,9 @@
 		D51E2A6228F55AC500277ADB /* MockHTTPSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHTTPSClient.swift; sourceTree = "<group>"; };
 		D51E2A6828F55B3C00277ADB /* data-contact-response.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = "data-contact-response.geojson"; sourceTree = "<group>"; };
 		D51E2A6928F55B5600277ADB /* TestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAPI.swift; sourceTree = "<group>"; };
-		D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPSClientProtocal.swift; path = DadJokes/HTTPSClientProtocal.swift; sourceTree = SOURCE_ROOT; };
-		D51E2A7128F55D1600277ADB /* HttpClientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HttpClientFactory.swift; path = DadJokes/HttpClientFactory.swift; sourceTree = SOURCE_ROOT; };
-		D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPsClient.swift; path = DadJokes/HTTPsClient.swift; sourceTree = SOURCE_ROOT; };
+		D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPSClientProtocal.swift; path = DadJokes/Services/HTTPSClientProtocal.swift; sourceTree = SOURCE_ROOT; };
+		D51E2A7128F55D1600277ADB /* HttpClientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HttpClientFactory.swift; path = DadJokes/Factory/HttpClientFactory.swift; sourceTree = SOURCE_ROOT; };
+		D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPsClient.swift; path = DadJokes/Services/HTTPsClient.swift; sourceTree = SOURCE_ROOT; };
 		EAB9EC92E9E04E7FCA25CFEA /* Task.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Task.swift; path = amplify/generated/models/Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -271,8 +267,8 @@
 		92FFBD48288FEC0B0003FDED /* DadJokes */ = {
 			isa = PBXGroup;
 			children = (
-				D51E2A5A28F5591F00277ADB /* Services */,
-				D51E2A5728F558EC00277ADB /* Factories */,
+				D5B3EE8228FFB32C0050BF84 /* Factory */,
+				D5B3EE8128FFB3200050BF84 /* Services */,
 				92ECC2B72893C73A00204345 /* Models */,
 				920C77962898CF7D000B1F4E /* Navigation */,
 				92ECC2B82893C74D00204345 /* ViewModels */,
@@ -294,23 +290,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D51E2A5728F558EC00277ADB /* Factories */ = {
-			isa = PBXGroup;
-			children = (
-				D51E2A7128F55D1600277ADB /* HttpClientFactory.swift */,
-			);
-			path = Factories;
-			sourceTree = "<group>";
-		};
-		D51E2A5A28F5591F00277ADB /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */,
-				D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 		D51E2A5F28F55A9200277ADB /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +305,23 @@
 				D51E2A6828F55B3C00277ADB /* data-contact-response.geojson */,
 			);
 			path = "Json Response";
+			sourceTree = "<group>";
+		};
+		D5B3EE8128FFB3200050BF84 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */,
+				D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5B3EE8228FFB32C0050BF84 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D51E2A7128F55D1600277ADB /* HttpClientFactory.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 		D7EC9D6D767A12043D2D5F39 /* Frameworks */ = {
@@ -511,9 +507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D57839E328FEB1D90031E2CD /* HTTPSClientProtocal.swift in Sources */,
 				92180C0728A3BC5C00CB60D2 /* PlusTestUI.swift in Sources */,
-				D57839E128FEAF790031E2CD /* HTTPsClient.swift in Sources */,
 				92180BFE28A3BBF200CB60D2 /* DadJokesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,14 +518,12 @@
 			files = (
 				D51E2A6A28F55B5600277ADB /* TestAPI.swift in Sources */,
 				D51E2A6128F55AA600277ADB /* Mockable.swift in Sources */,
-				D57839E428FEB1DA0031E2CD /* HTTPSClientProtocal.swift in Sources */,
 				92180C1828A3BD9900CB60D2 /* TestLogic.swift in Sources */,
 				92ABC4F528AB93BE006D5D65 /* DolarViewModel_Test.swift in Sources */,
 				92180C0F28A3BCCC00CB60D2 /* DadJokesTests2.swift in Sources */,
 				92ABC4F328AB933E006D5D65 /* DolarViewModel.swift in Sources */,
 				D51E2A6328F55AC500277ADB /* MockHTTPSClient.swift in Sources */,
 				92CA335D28B7242400BCEF60 /* DadJokesUITestsLaunchTests.swift in Sources */,
-				D57839E228FEAF790031E2CD /* HTTPsClient.swift in Sources */,
 				929E000628B5E54B003FD102 /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
