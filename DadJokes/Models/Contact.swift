@@ -8,7 +8,13 @@
 import Foundation
 
 struct Contact: Decodable, Hashable, Encodable {
-    var id : String?
+    var id : String
+    var name: String
+    var emoji: String
+    var avatar: String
+}
+
+struct PostContact: Encodable, Hashable{
     var name: String
     var emoji: String
     var avatar: String

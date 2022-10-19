@@ -17,7 +17,7 @@ class StateViewModel : ObservableObject {
     }
     
     func getData(){
-        self.client.getDataToAPI(){ data, error in
+        self.client.getDataToAPI { data,error in
             if data != nil {
                 DispatchQueue.main.async {
                     self.listContact = data ?? []
@@ -25,13 +25,12 @@ class StateViewModel : ObservableObject {
                 }
             }
             else {
-                print("Error \(String(describing: error))")
+                print("Error: \(String(describing: error))")
             }
-            
         }
     }
     func deletePost(id: String){
-        self.client.deletePost(id) { err in
+        self.client.deleteItem(id: id) { err in
             if err != nil {
                 print("Delete Fail")
             }
@@ -39,8 +38,8 @@ class StateViewModel : ObservableObject {
             self.getData()
         }
     }
-    func postContact(contact:Contact){
-        self.client.postContact(contact) { err in
+    func postContact(contact:PostContact){
+        self.client.postItem(contact: contact) { data, err  in
             if err != nil {
                 print("Post Fail")
             }

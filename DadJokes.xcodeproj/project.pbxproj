@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37F1130A98269F1F455EB495 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = C2B665CBD83F309E089E9C06 /* amplifyconfiguration.json */; };
+		48421288C81040D89A024F96 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 92B4C801DBEBF2EA64B7E1D0 /* awsconfiguration.json */; };
+		4DC523CEB911A3A578503A4F /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9673CD261AA269AAFEC4002E /* Note.swift */; };
+		50376A3CB2763C688EE67AC9 /* Note+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE358D7DC73A5C69E786C8 /* Note+Schema.swift */; };
+		74A2DADF9F74723F0E9F4A07 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D167C0FB20791D13D0EBB787 /* AmplifyModels.swift */; };
+		7B4456FC2728631666A32809 /* Task+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA2DEA8C0F379551F47D38 /* Task+Schema.swift */; };
 		92180BFE28A3BBF200CB60D2 /* DadJokesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180BFD28A3BBF200CB60D2 /* DadJokesUITests.swift */; };
 		92180C0728A3BC5C00CB60D2 /* PlusTestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180C0628A3BC5C00CB60D2 /* PlusTestUI.swift */; };
 		92180C0F28A3BCCC00CB60D2 /* DadJokesTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180C0E28A3BCCC00CB60D2 /* DadJokesTests2.swift */; };
@@ -14,24 +20,11 @@
 		922E7D332891481C00A60C08 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E7D322891481C00A60C08 /* HomeView.swift */; };
 		922E7D3528914B1E00A60C08 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E7D3428914B1E00A60C08 /* CardDetailView.swift */; };
 		92493B9B289774D3007BDA0B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92493B9A289774D3007BDA0B /* ImageView.swift */; };
-		929E000428B5D9A8003FD102 /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E000328B5D9A8003FD102 /* TestAPI.swift */; };
 		929E000628B5E54B003FD102 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2B52893C72600204345 /* Contact.swift */; };
 		929E000828B5E593003FD102 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2B52893C72600204345 /* Contact.swift */; };
-		929E001628B635DD003FD102 /* HTTPsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E001528B635DD003FD102 /* HTTPsClient.swift */; };
-		929E001828B63B65003FD102 /* HTTPSClientProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E001728B63B65003FD102 /* HTTPSClientProtocal.swift */; };
-		929E001E28B64093003FD102 /* data-contact-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 929E001D28B64093003FD102 /* data-contact-response.json */; };
 		92ABC4F328AB933E006D5D65 /* DolarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EDF38E28A26AE8000F150B /* DolarViewModel.swift */; };
 		92ABC4F528AB93BE006D5D65 /* DolarViewModel_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ABC4E528AB8AA2006D5D65 /* DolarViewModel_Test.swift */; };
-		92CA335928B71A0700BCEF60 /* HttpClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA335828B71A0700BCEF60 /* HttpClientFactory.swift */; };
 		92CA335D28B7242400BCEF60 /* DadJokesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92180BFF28A3BBF200CB60D2 /* DadJokesUITestsLaunchTests.swift */; };
-		92CA335E28B7248400BCEF60 /* HttpClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA335828B71A0700BCEF60 /* HttpClientFactory.swift */; };
-		92CA336128B725A000BCEF60 /* HTTPSClientProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E001728B63B65003FD102 /* HTTPSClientProtocal.swift */; };
-		92CA336228B7273D00BCEF60 /* HTTPsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E001528B635DD003FD102 /* HTTPsClient.swift */; };
-		92CA336328B7275F00BCEF60 /* StateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2B92893C76D00204345 /* StateViewModel.swift */; };
-		92CA336D28B72DD700BCEF60 /* StateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2B92893C76D00204345 /* StateViewModel.swift */; };
-		92CA336E28B72E8800BCEF60 /* MockHTTPSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E001A28B63EEE003FD102 /* MockHTTPSClient.swift */; };
-		92D5686128BF3F35004A33C4 /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5686028BF3F35004A33C4 /* Mockable.swift */; };
-		92D5686328BF4AC0004A33C4 /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5686028BF3F35004A33C4 /* Mockable.swift */; };
 		92ECC2BC2893E68800204345 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2BB2893E68800204345 /* TabBarRouter.swift */; };
 		92ECC2BF2893EA1800204345 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2BE2893EA1800204345 /* AccountView.swift */; };
 		92ECC2C12893EA3400204345 /* PlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2C02893EA3400204345 /* PlusView.swift */; };
@@ -45,6 +38,22 @@
 		92FFBD53288FEC0D0003FDED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBD52288FEC0D0003FDED /* Persistence.swift */; };
 		92FFBD56288FEC0D0003FDED /* DadJokes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBD54288FEC0D0003FDED /* DadJokes.xcdatamodeld */; };
 		92FFBD5E288FF7080003FDED /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFBD5D288FF7080003FDED /* EmojiView.swift */; };
+		B6F45D3D6C92B9B3414F3A88 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9EC92E9E04E7FCA25CFEA /* Task.swift */; };
+		D51E2A4E28F54A3A00277ADB /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = D51E2A4D28F54A3A00277ADB /* AWSAPIPlugin */; };
+		D51E2A5028F54A3A00277ADB /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = D51E2A4F28F54A3A00277ADB /* AWSDataStorePlugin */; };
+		D51E2A5228F54A3A00277ADB /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = D51E2A5128F54A3A00277ADB /* Amplify */; };
+		D51E2A5428F54C6D00277ADB /* schema.graphql in Resources */ = {isa = PBXBuildFile; fileRef = D51E2A5328F54C6D00277ADB /* schema.graphql */; };
+		D51E2A6128F55AA600277ADB /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A6028F55AA600277ADB /* Mockable.swift */; };
+		D51E2A6328F55AC500277ADB /* MockHTTPSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A6228F55AC500277ADB /* MockHTTPSClient.swift */; };
+		D51E2A6A28F55B5600277ADB /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A6928F55B5600277ADB /* TestAPI.swift */; };
+		D51E2A7028F55CE500277ADB /* HTTPSClientProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */; };
+		D51E2A7228F55D1600277ADB /* HttpClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A7128F55D1600277ADB /* HttpClientFactory.swift */; };
+		D51E2A7428F55D4A00277ADB /* HTTPsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */; };
+		D57839E128FEAF790031E2CD /* HTTPsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */; };
+		D57839E228FEAF790031E2CD /* HTTPsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */; };
+		D57839E328FEB1D90031E2CD /* HTTPSClientProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */; };
+		D57839E428FEB1DA0031E2CD /* HTTPSClientProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */; };
+		D57839E728FEB3560031E2CD /* StateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2B92893C76D00204345 /* StateViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05DA2DEA8C0F379551F47D38 /* Task+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Task+Schema.swift"; path = "amplify/generated/models/Task+Schema.swift"; sourceTree = "<group>"; };
 		767C4C390FC89B1568B0794A /* Pods-DadJokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadJokes.release.xcconfig"; path = "Target Support Files/Pods-DadJokes/Pods-DadJokes.release.xcconfig"; sourceTree = "<group>"; };
 		92180BFB28A3BBF200CB60D2 /* DadJokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadJokesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92180BFD28A3BBF200CB60D2 /* DadJokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesUITests.swift; sourceTree = "<group>"; };
@@ -76,14 +86,8 @@
 		922E7D322891481C00A60C08 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		922E7D3428914B1E00A60C08 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
 		92493B9A289774D3007BDA0B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		929E000328B5D9A8003FD102 /* TestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestAPI.swift; path = ../../../TestAPI.swift; sourceTree = "<group>"; };
-		929E001528B635DD003FD102 /* HTTPsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPsClient.swift; path = ../../../../HTTPsClient.swift; sourceTree = "<group>"; };
-		929E001728B63B65003FD102 /* HTTPSClientProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPSClientProtocal.swift; path = ../../../../HTTPSClientProtocal.swift; sourceTree = "<group>"; };
-		929E001A28B63EEE003FD102 /* MockHTTPSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockHTTPSClient.swift; path = ../../../../MockHTTPSClient.swift; sourceTree = "<group>"; };
-		929E001D28B64093003FD102 /* data-contact-response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "data-contact-response.json"; path = "../../../../data-contact-response.json"; sourceTree = "<group>"; };
 		92ABC4E528AB8AA2006D5D65 /* DolarViewModel_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarViewModel_Test.swift; sourceTree = "<group>"; };
-		92CA335828B71A0700BCEF60 /* HttpClientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HttpClientFactory.swift; path = ../../../../HttpClientFactory.swift; sourceTree = "<group>"; };
-		92D5686028BF3F35004A33C4 /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Mockable.swift; path = ../../../../Mockable.swift; sourceTree = "<group>"; };
+		92B4C801DBEBF2EA64B7E1D0 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		92ECC2B52893C72600204345 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		92ECC2B92893C76D00204345 /* StateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewModel.swift; sourceTree = "<group>"; };
 		92ECC2BB2893E68800204345 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
@@ -101,7 +105,20 @@
 		92FFBD55288FEC0D0003FDED /* DadJokes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DadJokes.xcdatamodel; sourceTree = "<group>"; };
 		92FFBD5C288FEE790003FDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		92FFBD5D288FF7080003FDED /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		9673CD261AA269AAFEC4002E /* Note.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Note.swift; path = amplify/generated/models/Note.swift; sourceTree = "<group>"; };
+		99DE358D7DC73A5C69E786C8 /* Note+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Note+Schema.swift"; path = "amplify/generated/models/Note+Schema.swift"; sourceTree = "<group>"; };
 		A3212828872856F723AEB0A1 /* Pods-DadJokes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadJokes.debug.xcconfig"; path = "Target Support Files/Pods-DadJokes/Pods-DadJokes.debug.xcconfig"; sourceTree = "<group>"; };
+		C2B665CBD83F309E089E9C06 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		D167C0FB20791D13D0EBB787 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		D51E2A5328F54C6D00277ADB /* schema.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.graphql; sourceTree = "<group>"; };
+		D51E2A6028F55AA600277ADB /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
+		D51E2A6228F55AC500277ADB /* MockHTTPSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHTTPSClient.swift; sourceTree = "<group>"; };
+		D51E2A6828F55B3C00277ADB /* data-contact-response.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = "data-contact-response.geojson"; sourceTree = "<group>"; };
+		D51E2A6928F55B5600277ADB /* TestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAPI.swift; sourceTree = "<group>"; };
+		D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPSClientProtocal.swift; path = DadJokes/HTTPSClientProtocal.swift; sourceTree = SOURCE_ROOT; };
+		D51E2A7128F55D1600277ADB /* HttpClientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HttpClientFactory.swift; path = DadJokes/HttpClientFactory.swift; sourceTree = SOURCE_ROOT; };
+		D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPsClient.swift; path = DadJokes/HTTPsClient.swift; sourceTree = SOURCE_ROOT; };
+		EAB9EC92E9E04E7FCA25CFEA /* Task.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Task.swift; path = amplify/generated/models/Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +140,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51E2A5228F54A3A00277ADB /* Amplify in Frameworks */,
+				D51E2A4E28F54A3A00277ADB /* AWSAPIPlugin in Frameworks */,
+				D51E2A5028F54A3A00277ADB /* AWSDataStorePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		248639DD6873C7F5856F2776 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				92B4C801DBEBF2EA64B7E1D0 /* awsconfiguration.json */,
+				C2B665CBD83F309E089E9C06 /* amplifyconfiguration.json */,
+				D51E2A5328F54C6D00277ADB /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		6B215B904494FAF0A47719B9 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				D167C0FB20791D13D0EBB787 /* AmplifyModels.swift */,
+				99DE358D7DC73A5C69E786C8 /* Note+Schema.swift */,
+				9673CD261AA269AAFEC4002E /* Note.swift */,
+				05DA2DEA8C0F379551F47D38 /* Task+Schema.swift */,
+				EAB9EC92E9E04E7FCA25CFEA /* Task.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
 		920C77962898CF7D000B1F4E /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,12 +203,12 @@
 		92180C0D28A3BCCC00CB60D2 /* DadJokesTests2 */ = {
 			isa = PBXGroup;
 			children = (
-				929E001C28B64069003FD102 /* Json Response */,
-				929E001928B63ECF003FD102 /* Mocks */,
+				D51E2A6428F55AD200277ADB /* Json Response */,
+				D51E2A5F28F55A9200277ADB /* Mocks */,
 				92180C0E28A3BCCC00CB60D2 /* DadJokesTests2.swift */,
 				92180C1728A3BD9900CB60D2 /* TestLogic.swift */,
 				92ABC4E528AB8AA2006D5D65 /* DolarViewModel_Test.swift */,
-				929E000328B5D9A8003FD102 /* TestAPI.swift */,
+				D51E2A6928F55B5600277ADB /* TestAPI.swift */,
 			);
 			path = DadJokesTests2;
 			sourceTree = "<group>";
@@ -182,40 +224,6 @@
 				92ECC2C42893EA6300204345 /* RecordsView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		929E001428B635B6003FD102 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				929E001528B635DD003FD102 /* HTTPsClient.swift */,
-				929E001728B63B65003FD102 /* HTTPSClientProtocal.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		929E001928B63ECF003FD102 /* Mocks */ = {
-			isa = PBXGroup;
-			children = (
-				929E001A28B63EEE003FD102 /* MockHTTPSClient.swift */,
-				92D5686028BF3F35004A33C4 /* Mockable.swift */,
-			);
-			path = Mocks;
-			sourceTree = "<group>";
-		};
-		929E001C28B64069003FD102 /* Json Response */ = {
-			isa = PBXGroup;
-			children = (
-				929E001D28B64093003FD102 /* data-contact-response.json */,
-			);
-			path = "Json Response";
-			sourceTree = "<group>";
-		};
-		92CA335728B719E600BCEF60 /* Factories */ = {
-			isa = PBXGroup;
-			children = (
-				92CA335828B71A0700BCEF60 /* HttpClientFactory.swift */,
-			);
-			path = Factories;
 			sourceTree = "<group>";
 		};
 		92ECC2B72893C73A00204345 /* Models */ = {
@@ -245,6 +253,8 @@
 				92FFBD47288FEC0B0003FDED /* Products */,
 				FCCCE1089C12051F915E73D3 /* Pods */,
 				D7EC9D6D767A12043D2D5F39 /* Frameworks */,
+				248639DD6873C7F5856F2776 /* AmplifyConfig */,
+				6B215B904494FAF0A47719B9 /* AmplifyModels */,
 			);
 			sourceTree = "<group>";
 		};
@@ -261,8 +271,8 @@
 		92FFBD48288FEC0B0003FDED /* DadJokes */ = {
 			isa = PBXGroup;
 			children = (
-				92CA335728B719E600BCEF60 /* Factories */,
-				929E001428B635B6003FD102 /* Services */,
+				D51E2A5A28F5591F00277ADB /* Services */,
+				D51E2A5728F558EC00277ADB /* Factories */,
 				92ECC2B72893C73A00204345 /* Models */,
 				920C77962898CF7D000B1F4E /* Navigation */,
 				92ECC2B82893C74D00204345 /* ViewModels */,
@@ -282,6 +292,40 @@
 				92FFBD50288FEC0D0003FDED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D51E2A5728F558EC00277ADB /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				D51E2A7128F55D1600277ADB /* HttpClientFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		D51E2A5A28F5591F00277ADB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D51E2A6F28F55CE500277ADB /* HTTPSClientProtocal.swift */,
+				D51E2A7328F55D4A00277ADB /* HTTPsClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D51E2A5F28F55A9200277ADB /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D51E2A6028F55AA600277ADB /* Mockable.swift */,
+				D51E2A6228F55AC500277ADB /* MockHTTPSClient.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		D51E2A6428F55AD200277ADB /* Json Response */ = {
+			isa = PBXGroup;
+			children = (
+				D51E2A6828F55B3C00277ADB /* data-contact-response.geojson */,
+			);
+			path = "Json Response";
 			sourceTree = "<group>";
 		};
 		D7EC9D6D767A12043D2D5F39 /* Frameworks */ = {
@@ -353,6 +397,11 @@
 			dependencies = (
 			);
 			name = DadJokes;
+			packageProductDependencies = (
+				D51E2A4D28F54A3A00277ADB /* AWSAPIPlugin */,
+				D51E2A4F28F54A3A00277ADB /* AWSDataStorePlugin */,
+				D51E2A5128F54A3A00277ADB /* Amplify */,
+			);
 			productName = DadJokes;
 			productReference = 92FFBD46288FEC0B0003FDED /* DadJokes.app */;
 			productType = "com.apple.product-type.application";
@@ -389,6 +438,9 @@
 				Base,
 			);
 			mainGroup = 92FFBD3D288FEC0B0003FDED;
+			packageReferences = (
+				D51E2A4C28F54A3A00277ADB /* XCRemoteSwiftPackageReference "amplify-ios" */,
+			);
 			productRefGroup = 92FFBD47288FEC0B0003FDED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -412,7 +464,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				929E001E28B64093003FD102 /* data-contact-response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +473,9 @@
 			files = (
 				92FFBD51288FEC0D0003FDED /* Preview Assets.xcassets in Resources */,
 				92FFBD4E288FEC0D0003FDED /* Assets.xcassets in Resources */,
+				48421288C81040D89A024F96 /* awsconfiguration.json in Resources */,
+				D51E2A5428F54C6D00277ADB /* schema.graphql in Resources */,
+				37F1130A98269F1F455EB495 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +511,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57839E328FEB1D90031E2CD /* HTTPSClientProtocal.swift in Sources */,
 				92180C0728A3BC5C00CB60D2 /* PlusTestUI.swift in Sources */,
+				D57839E128FEAF790031E2CD /* HTTPsClient.swift in Sources */,
 				92180BFE28A3BBF200CB60D2 /* DadJokesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,18 +522,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92CA336D28B72DD700BCEF60 /* StateViewModel.swift in Sources */,
-				92CA335E28B7248400BCEF60 /* HttpClientFactory.swift in Sources */,
+				D51E2A6A28F55B5600277ADB /* TestAPI.swift in Sources */,
+				D51E2A6128F55AA600277ADB /* Mockable.swift in Sources */,
+				D57839E428FEB1DA0031E2CD /* HTTPSClientProtocal.swift in Sources */,
 				92180C1828A3BD9900CB60D2 /* TestLogic.swift in Sources */,
-				92CA336128B725A000BCEF60 /* HTTPSClientProtocal.swift in Sources */,
 				92ABC4F528AB93BE006D5D65 /* DolarViewModel_Test.swift in Sources */,
-				92CA336228B7273D00BCEF60 /* HTTPsClient.swift in Sources */,
 				92180C0F28A3BCCC00CB60D2 /* DadJokesTests2.swift in Sources */,
-				92D5686128BF3F35004A33C4 /* Mockable.swift in Sources */,
 				92ABC4F328AB933E006D5D65 /* DolarViewModel.swift in Sources */,
-				92CA336E28B72E8800BCEF60 /* MockHTTPSClient.swift in Sources */,
+				D51E2A6328F55AC500277ADB /* MockHTTPSClient.swift in Sources */,
 				92CA335D28B7242400BCEF60 /* DadJokesUITestsLaunchTests.swift in Sources */,
-				929E000428B5D9A8003FD102 /* TestAPI.swift in Sources */,
+				D57839E228FEAF790031E2CD /* HTTPsClient.swift in Sources */,
 				929E000628B5E54B003FD102 /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,26 +540,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92CA336328B7275F00BCEF60 /* StateViewModel.swift in Sources */,
 				92493B9B289774D3007BDA0B /* ImageView.swift in Sources */,
-				92CA335928B71A0700BCEF60 /* HttpClientFactory.swift in Sources */,
 				92ECC2C12893EA3400204345 /* PlusView.swift in Sources */,
 				92ECC2BF2893EA1800204345 /* AccountView.swift in Sources */,
 				929E000828B5E593003FD102 /* Contact.swift in Sources */,
 				92FFBD53288FEC0D0003FDED /* Persistence.swift in Sources */,
+				D51E2A7428F55D4A00277ADB /* HTTPsClient.swift in Sources */,
 				92FFBD4C288FEC0B0003FDED /* ContentView.swift in Sources */,
 				92FFBD56288FEC0D0003FDED /* DadJokes.xcdatamodeld in Sources */,
 				92ECC2C32893EA4D00204345 /* MapView.swift in Sources */,
 				922E7D332891481C00A60C08 /* HomeView.swift in Sources */,
 				92FFBD4A288FEC0B0003FDED /* DadJokesApp.swift in Sources */,
+				D51E2A7028F55CE500277ADB /* HTTPSClientProtocal.swift in Sources */,
+				D57839E728FEB3560031E2CD /* StateViewModel.swift in Sources */,
 				92ECC2BC2893E68800204345 /* TabBarRouter.swift in Sources */,
 				92ECC2C52893EA6300204345 /* RecordsView.swift in Sources */,
 				92EDF38F28A26AE8000F150B /* DolarViewModel.swift in Sources */,
-				929E001828B63B65003FD102 /* HTTPSClientProtocal.swift in Sources */,
 				92FFBD5E288FF7080003FDED /* EmojiView.swift in Sources */,
-				929E001628B635DD003FD102 /* HTTPsClient.swift in Sources */,
-				92D5686328BF4AC0004A33C4 /* Mockable.swift in Sources */,
 				922E7D3528914B1E00A60C08 /* CardDetailView.swift in Sources */,
+				D51E2A7228F55D1600277ADB /* HttpClientFactory.swift in Sources */,
+				74A2DADF9F74723F0E9F4A07 /* AmplifyModels.swift in Sources */,
+				50376A3CB2763C688EE67AC9 /* Note+Schema.swift in Sources */,
+				4DC523CEB911A3A578503A4F /* Note.swift in Sources */,
+				7B4456FC2728631666A32809 /* Task+Schema.swift in Sources */,
+				B6F45D3D6C92B9B3414F3A88 /* Task.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,6 +871,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D51E2A4C28F54A3A00277ADB /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D51E2A4D28F54A3A00277ADB /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D51E2A4C28F54A3A00277ADB /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		D51E2A4F28F54A3A00277ADB /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D51E2A4C28F54A3A00277ADB /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
+		};
+		D51E2A5128F54A3A00277ADB /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D51E2A4C28F54A3A00277ADB /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		92FFBD54288FEC0D0003FDED /* DadJokes.xcdatamodeld */ = {

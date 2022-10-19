@@ -27,7 +27,7 @@ struct HomeView: View {
 //            .onAppear(){
 //                self.modelView.listContact
 //            }
-        }
+        }.navigationViewStyle(.stack)
     }
 }
 

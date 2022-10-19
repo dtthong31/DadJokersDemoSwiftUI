@@ -27,10 +27,10 @@ struct MapView: View {
                     modelView.getData()
                 }.navigationTitle("Map view")
                 Button("Post Contact") {
-                    modelView.postContact(contact: Contact(name: "Chau Tinh Tri", emoji: ":)", avatar: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/431.jpg"))
+                    modelView.postContact(contact: PostContact(name: "Chau Tinh Tri", emoji: ":)", avatar: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/431.jpg"))
                 }
             }
-        }
+        }.navigationViewStyle(.stack)
     }
     func removeItem(at offsets: IndexSet){
         // preserve all ids to be deleted to avoid indices confusing

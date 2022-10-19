@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class HttpClientFactory {
+    static func create() -> HTTPSClientProtocal {
+        return HTTPsClient()
+    }
+}
